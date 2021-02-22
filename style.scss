@@ -135,18 +135,18 @@ body{
     }
 }
 .button{
-        text-align: center;
-        background-color: var(--c-background);
-        border: none;
-        color: var(--c-button);
-        padding: 18px 32px ;
-        border-radius: 6px;
-        &:hover{cursor: pointer;}
-        max-width: 100%;
-        &--margin-left{
-        margin-left: 30px;
-        }
-        &--margin-right{
-            margin-right: 60px;
-        }
+    text-align: center;
+    background-color: var(--c-background);
+    border: none;
+    color: var(--c-button);
+    padding: 18px 32px ;
+    border-radius: 6px;
+    &:hover{cursor: pointer;}
+    max-width: 100%;
+    &--margin-left{
+    margin-left: 30px;
+    }
+    &--margin-right{
+        margin-right: 60px;
+    }
 }
