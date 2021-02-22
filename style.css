@@ -1,0 +1,178 @@
+body {
+  font-family: Roboto;
+  height: 0;
+  width: 100%;
+  margin: 0;
+}
+
+:root {
+  --c-background:#A3DC00;
+  --c-logo:#0A1B32;
+  --c-medi:#1B0A42;
+  --c-desc:#9A9A9A;
+  --c-button:#ffffff;
+  --f-h1: Ramaraja;
+  --f-logo:Coda Caption;
+  --f-size-logo:18px;
+  --f-size-medi:14px;
+  --f-size-h1:50px;
+  --f-size-desc:18px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.container__logo {
+  margin-left: 90px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container__logo--c-color {
+  color: var(--c-logo);
+}
+
+.container__logo--font-size {
+  font-size: var(--f-size-logo);
+}
+
+.container__nav__a1 {
+  text-decoration: none;
+}
+
+.container__nav__a1:not(:last-of-type) {
+  margin-right: 38px;
+}
+
+.container__nav__a1--color {
+  color: var(--c-medi);
+}
+
+.container__nav__a1--font-size {
+  font-size: var(--f-size-medi);
+}
+
+.container__nav__a1:active {
+  color: black;
+  font-weight: bold;
+}
+
+.container__nav__a {
+  text-decoration: none;
+}
+
+.container__nav__a:not(:last-of-type) {
+  margin-right: 38px;
+}
+
+.container__nav__a--color {
+  color: var(--c-medi);
+}
+
+.container__nav__a--font-size {
+  font-size: var(--f-size-medi);
+}
+
+.container__sign {
+  display: inline-block;
+}
+
+.container__sign__a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.container__sign__a--color {
+  color: var(--c-medi);
+}
+
+.container__sign__a--font-size {
+  font-size: var(--f-size-medi);
+}
+
+.section {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+}
+
+.section__sol {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.section__sol__baslik {
+  width: 100%;
+}
+
+.section__sol__baslik--font-size {
+  font-size: var(--f-size-h1);
+}
+
+.section__sol__baslik--color {
+  color: var(--c-medi);
+}
+
+.section__sol__desc--color {
+  color: var(--c-desc);
+}
+
+.section__sol__desc--font-size {
+  font-size: var(--f-size-desc);
+}
+
+.section__button {
+  text-align: center;
+  background-color: var(--c-background);
+  border: none;
+  color: var(--c-button);
+  padding: 18px 32px;
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.section__button:hover {
+  cursor: pointer;
+}
+
+.section__resim {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  background-color: var(--c-background);
+  border: none;
+  color: var(--c-button);
+  padding: 18px 32px;
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--margin-left {
+  margin-left: 30px;
+}
+
+.button--margin-right {
+  margin-right: 60px;
+}
+/*# sourceMappingURL=style.css.map */
